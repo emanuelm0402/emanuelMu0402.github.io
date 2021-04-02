@@ -1,0 +1,98 @@
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+header {
+    background-image: linear-gradient(to right, hsla(0, 0%, 6%, 0.1), hsla(0, 0%, 0%, 0.303)), url('assets/couple-winter-cloths-studio.jpg');
+    background-size: cover;
+    height: 600px;
+
+}
+.logo{
+    height:50px ;
+}
+.ti{
+    font-size: 70px;
+    color: #661016;
+}
+.navbar{
+    box-shadow: 0 3px 3px rgb(0, 0, 0, 0.6)
+}
+
+.titulo {
+    color: #fff;
+    font-size: 45px;
+    text-align: left;
+}
+.container{
+    max-width: 100%;
+}
+.poligono {
+
+    clip-path: polygon(0 0, 100% 0, 61% 100%, 0% 100%);
+}
+.poligono2 {
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 39% 100%);
+    margin-left: 60px;
+}
+
+.boton {
+    background-color: #661016;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+}
+#testimonios{
+    background-color:  hsla(0, 0%, 0%, 0.303);
+ 
+}
+.single-box{
+    border-radius: 8px;
+    background-image: linear-gradient(to right, hsla(0, 0%, 6%, 0.05), hsla(0, 0%, 0%, 0.303)), url('assets/58064.jpg');
+    background-size: cover;
+    box-shadow: 1px 10px 28px 10px rgba(0,0,0,0.69);
+    padding: 30px 20px;
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+    align-items: center;
+}
+.cards{
+    display: flex;
+}
+.img-area{
+    border-radius: 50%;
+}
+
+#ofertas{
+    padding-left: 100px;
+    height: 500px;
+    background-image: url('assets/hand-painted-watercolor-background-with-sky-and-clouds-shape.jpg');
+    background-size: cover;
+}
+#ofertas h1{
+    text-align: center;
+    margin-left: -100px;
+}
+.item{
+    transition: .5s ease-in-out;
+}
+.item:hover{
+    filter: brightness(80%);
+}
+#footer{
+    background-color: #192129;
+    height: 150px;
+}
+.imgf{
+    margin-left: 200px;
+}
+.card{
+    box-shadow: 1px 5px 8px 5px rgba(0,0,0,0.4);
+}
+
+  
